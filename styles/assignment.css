@@ -73,8 +73,12 @@ head {
               height: auto;
               background-repeat: no-repeat;
               margin: 120px auto;
-              display: flex;             
+              display: flex;
 }
+
+/* .midnight-party-heading{
+              padding: 126px;
+} */
 
 .midnight-party h1 {
               color: #FFF;
@@ -82,13 +86,54 @@ head {
               font-weight: 900;
               line-height: 88px;
               letter-spacing: 7.04px;
-              padding: 126px 552px 298px 126px;
+              margin: 0;
 }
 
-.midnight-party .image {
-              
-              padding-top: 75px;
-              position: relative;
+.midnight-party-heading p{
+              color: rgba(255, 255, 255, 0.80);
+
+              font-family: Inter;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 30px; /* 166.667% */
+              margin: 0;
+}
+
+.midnight-party-heading input{
+              color: #FFF;
+              text-align: center;
+              font-family: Inter;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              text-transform: uppercase;
+              background: transparent;
+              border: none;
+              padding-top: 30px;
+              padding-left: 40px;
+}
+
+.midnight-party-heading{
+              padding: 126px;
+}
+
+.midnight-party-image img {
+              display: flex;
+              width: 319.83px;
+              height: 464.662px;
+              padding: 0.008px 0px 0px 0px;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              flex-shrink: 0;
+}
+
+.midnight-party-image {
+              padding-top: 68px;
+              padding-bottom: 67px;
+              padding-right: 138px;
 }
 
 .midnight-party h3 {
@@ -202,4 +247,168 @@ head {
               padding-left: 118px;
               width: 140px;
               height: 140px;
+}
+
+/* gift section */
+
+.gifts {
+              padding: 120px 150px;
+}
+
+.gift-greeting {
+              color: #F00;
+              font-family: Inter;
+              font-size: 24px;
+              font-weight: 500;
+              padding-bottom: 15px;
+}
+
+.gift-head {
+              color: #070211;
+              font-size: 48px;
+              font-weight: 900;
+              padding-bottom: 22px;
+}
+
+.gift-description {
+              color: rgba(7, 2, 17, 0.60);
+              font-family: Inter;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 32px;
+              width: 896px;
+}
+
+.first-line .a1 {
+              padding-right: 24px;
+}
+
+.a2 {
+              padding-right: 24px;
+}
+
+.b1 {
+              padding-right: 24px;
+              padding-top: 24px;
+}
+
+.b2 {
+              padding-right: 24px;
+              padding-top: 24px;
+}
+
+.b3 {
+              padding-top: 24px;
+}
+
+/* subscribe section */
+.subscribe {
+              margin-top: 120px;
+              border-radius: 16px;
+              background: rgba(255, 0, 0, 0.05);
+              text-align: center;
+}
+
+.sub-img {
+              padding-top: 80px;
+              width: 150px;
+              height: 150px;
+}
+
+.sub-header {
+              color: #070211;
+              font-size: 48px;
+              font-weight: 900;
+              padding-top: 5px;
+}
+
+.sub-describtion {
+              color: rgba(7, 2, 17, 0.60);
+              font-family: Inter;
+              text-align: center;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 32px;
+              width: 896px;
+              padding-left: 220px;
+}
+
+.input-field {
+              width: 400px;
+              height: 50px;
+              border-radius: 50px 0 0 50px;
+              background: #FFF;
+              padding-left: 30px;
+              border: 0;
+}
+
+.src-section {
+              padding-bottom: 80px;
+              border-radius: 0px 50px 50px 0px;
+              display: flex;
+              margin-left: 25%;
+}
+
+.src-btn {
+              border-radius: 0px 50px 50px 0px;
+              background: #F00;
+              height: 52px;
+              width: 140px;
+              border: none;
+}
+
+.src-btn span {
+              padding-left: 0;
+              color: #FFF;
+              text-align: center;
+              font-family: Inter;
+              font-size: 20px;
+              font-weight: 600;
+}
+
+/* footer section */
+
+.foot {
+              display: flex;
+              justify-content: space-around;
+              background-color: #070211;
+              width: 1600px;
+              height: 609;
+              margin: 120px;
+}
+
+.address {
+              padding: 120px 0 409px 40px;
+}
+
+.copy-right {
+              padding: 120px;
+              color: #FFF;
+              font-family: Inter;
+              font-size: 24px;
+              font-weight: 500;
+}
+
+.location {
+              color: #FFF;
+              font-family: Inter;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 40px;
+}
+
+.contact h4 {
+              color: #FFF;
+              font-family: Inter;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 40px;
+}
+
+.unsubscribe {
+              color: #FFF;
+              font-family: Inter;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 40px;
 }
