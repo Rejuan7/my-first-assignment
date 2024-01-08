@@ -89,18 +89,18 @@ head {
               margin: 0;
 }
 
-.midnight-party-heading p{
+.midnight-party-heading p {
               color: rgba(255, 255, 255, 0.80);
 
               font-family: Inter;
               font-size: 18px;
               font-style: normal;
               font-weight: 400;
-              line-height: 30px; /* 166.667% */
+              line-height: 30px;
               margin: 0;
 }
 
-.midnight-party-heading input{
+.midnight-party-heading input {
               color: #FFF;
               text-align: center;
               font-family: Inter;
@@ -108,14 +108,13 @@ head {
               font-style: normal;
               font-weight: 700;
               line-height: normal;
-              text-transform: uppercase;
               background: transparent;
               border: none;
               padding-top: 30px;
               padding-left: 40px;
 }
 
-.midnight-party-heading{
+.midnight-party-heading {
               padding: 126px;
 }
 
@@ -150,6 +149,8 @@ head {
               font-size: 20px;
               font-weight: 700;
 }
+
+/* time section */
 
 .time {
               background-color: aliceblue;
@@ -369,24 +370,11 @@ head {
 /* footer section */
 
 .foot {
-              display: flex;
-              justify-content: space-around;
+              /* display: flex; */
               background-color: #070211;
               width: 1600px;
-              height: 609;
-              margin: 120px;
-}
-
-.address {
-              padding: 120px 0 409px 40px;
-}
-
-.copy-right {
-              padding: 120px;
-              color: #FFF;
-              font-family: Inter;
-              font-size: 24px;
-              font-weight: 500;
+              height: 609px;
+              margin-top: 0;
 }
 
 .location {
@@ -395,14 +383,9 @@ head {
               font-size: 24px;
               font-weight: 500;
               line-height: 40px;
-}
-
-.contact h4 {
-              color: #FFF;
-              font-family: Inter;
-              font-size: 24px;
-              font-weight: 500;
-              line-height: 40px;
+              display: flex;
+              justify-content: space-between;
+              padding: 70px;
 }
 
 .unsubscribe {
@@ -411,4 +394,17 @@ head {
               font-size: 24px;
               font-weight: 500;
               line-height: 40px;
+              padding-top: 300px;
+}
+
+.copy-right {
+              color: #FFF;
+              font-family: Inter;
+              font-size: 24px;
+              font-weight: 500;
+              padding-top: 300px;
+}
+.img{
+              padding-top: 200px;
+              padding-right: 80px;
 }
