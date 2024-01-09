@@ -9,10 +9,11 @@ head {
               background-image: url('../resources/Banner\ Image.png');
               width: 1320px;
               height: 600px;
-              margin: 50px auto;
+              margin: 50px 140px 120px 140px;
               background-repeat: no-repeat;
               border-radius: 16px;
               align-items: center;
+
 
               #grad {
                             background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -49,6 +50,8 @@ head {
               font-size: 88px;
               font-weight: 700;
               margin-top: 120px;
+              /* margin-left: 608px; */
+              /* margin-right: 608px; */
 }
 
 .discount h3 {
@@ -56,6 +59,8 @@ head {
               font-family: Inter;
               font-size: 24px;
               font-weight: 500;
+              /* margin-left: 601px; */
+              /* margin-right: 601px; */
 }
 
 .discount h2 {
@@ -63,6 +68,8 @@ head {
               font-family: Inter;
               font-size: 48px;
               font-weight: 700;
+              /* margin-left: 595px; */
+              /* margin-right: 595px; */
 }
 
 /* party section */
@@ -91,10 +98,8 @@ head {
 
 .midnight-party-heading p {
               color: rgba(255, 255, 255, 0.80);
-
               font-family: Inter;
               font-size: 18px;
-              font-style: normal;
               font-weight: 400;
               line-height: 30px;
               margin: 0;
@@ -102,12 +107,9 @@ head {
 
 .midnight-party-heading input {
               color: #FFF;
-              text-align: center;
               font-family: Inter;
               font-size: 20px;
-              font-style: normal;
               font-weight: 700;
-              line-height: normal;
               background: transparent;
               border: none;
               padding-top: 30px;
@@ -118,7 +120,7 @@ head {
               padding: 126px;
 }
 
-.midnight-party-image img {
+.midnight-party-image {
               display: flex;
               width: 319.83px;
               height: 464.662px;
@@ -126,22 +128,9 @@ head {
               flex-direction: column;
               justify-content: center;
               align-items: center;
-              flex-shrink: 0;
-}
-
-.midnight-party-image {
               padding-top: 68px;
               padding-bottom: 67px;
               padding-right: 138px;
-}
-
-.midnight-party h3 {
-              color: black;
-              font-size: 18px;
-              font-weight: 400;
-              line-height: 30px;
-              padding-left: 126px;
-              padding-bottom: 214px;
 }
 
 .btn-primary {
@@ -187,6 +176,72 @@ head {
               border-radius: 8px;
               background: #F00;
               padding: 5px 32px;
+}
+
+/* holidays offer */
+.holidays-sale {
+              /* background-color: #FFF;
+              width: 1600px;
+              height: 800px; */
+              text-align: center;
+              /* border: 5px solid; */
+              margin: 120px;
+}
+
+.holiday-greeting {
+              color: #070211;
+              font-family: Inter;
+              font-size: 24px;
+              font-weight: 500;
+
+}
+
+.hf {
+              color: #F00;
+              text-align: center;
+              font-size: 72px;
+              font-weight: 900;
+}
+
+.hl {
+              color: #070211;
+              font-size: 72px;
+              font-weight: 900;
+}
+
+.holiday-description {
+              color: rgba(7, 2, 17, 0.60);
+              text-align: center;
+              font-family: Inter;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 32px;
+              padding-left: 100px;
+              padding-right: 100px;
+}
+
+.girl {
+              width: 429px;
+              height: 433px;
+}
+
+.group44 {
+              width: 206.841px;
+              height: 206.841px;
+}
+.gift{
+              height: 600px;
+              width: 600px;
+}
+
+.img-2 {
+              display: flex;
+              justify-content: right;
+              margin-right: 55px;
+}
+
+.group-img {
+              display: flex;
 }
 
 /* New offer */
@@ -404,7 +459,8 @@ head {
               font-weight: 500;
               padding-top: 300px;
 }
-.img{
+
+.img {
               padding-top: 200px;
               padding-right: 80px;
 }
